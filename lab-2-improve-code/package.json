@@ -17,7 +17,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npx eslint ./",
+      "pre-commit": "npx eslint ./src",
       "pre-push": "npm test"
     }
   },
